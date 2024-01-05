@@ -309,6 +309,8 @@ h6 {
 /**
 * Mobile Navigation
 */
+
+
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -325,6 +327,12 @@ h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+  }
+
+  #header .logo img {
+    max-height: 20px; /* Adjust the size for mobile devices */
+    padding-bottom: 5px; /* Adjust the margin for mobile devices */
+    padding-left: 5px;
   }
 
   .navbar ul {
